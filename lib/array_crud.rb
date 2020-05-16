@@ -4,12 +4,11 @@ end
 
 def create_an_array
   array = ["a", "b", "c", "d"]
-  
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["a", "b", "c", "d"]
-  array << "e"
+  array = []
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
